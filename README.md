@@ -2,8 +2,23 @@ How I Would Prepare for an Interview as a Front End Developer at Google
 
 # Broad Algorithms and Concepts
 
-- [ ] [sorting](https://en.wikipedia.org/wiki/Sorting_algorithm)
 
+## Sort
+
+Think about efficiency in terms of _runtime_ and _space used_. To visualize this, nothing is better than [TopTal's Sorting Algorithms Animations](https://www.toptal.com/developers/sorting-algorithms).
+
+  - [ ] [sorting](https://en.wikipedia.org/wiki/Sorting_algorithm)
+  - [ ] insertion-sort
+  - [ ] radix-sort
+  - [ ] QuickSort
+  - [ ] MergeSort
+  - [ ] HeapSort
+
+## Algorithm
+
+For algorithms, know the complexity of the algorithm and how to improve/change it.
+
+- [ ] Bottom Down Algorithms vs. Top Down Algorithms
 
 - [ ] [binary search](https://en.wikipedia.org/wiki/Binary_search_algorithm)
 
@@ -35,21 +50,48 @@ Here is a good description of how to thinki of the [choice between memoization a
   Simply put, Big-0 notation is a way to calculate the runtime of an algorithm in a _back of the envelope_ sort of way. It's not rigorous mathematical perfection... but it will give you a fairly good idea for how fast your program will work when it encounters a huge data set.
 
 
-# Specific Algorithms To Study
+### Specific Algorithms To Study
 
-## [Dijkstra's algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)
+#### [Dijkstra's algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)
+
+...
+
+#### [A* Search Algorithm](https://en.wikipedia.org/wiki/A*_search_algorithm)
 
 ...
 
-## [A* Search Algorithm](https://en.wikipedia.org/wiki/A*_search_algorithm)
+## Data Structures
 
-...
+- [ ] You should know data structures
+  - [ ] arrays
+  - [ ] linked lists
+  - [ ] stacks
+  - [ ] queues
+  - [ ] hash-sets
+  - [ ] hash-maps
+  - [ ] hash-tables
+  - [ ] dictionary
+  - [ ] trees
+  - [ ] binary trees
+  - [ ] heaps
+  - [ ] graphs
+- [ ] You should know which algorithms go with which data structurhttps://en.wikipedia.org/wiki/Combinatoricses
+
+
+## Mathematics
+
+- [ ] [basic discrete math](https://en.wikipedia.org/wiki/Outline_of_discrete_mathematics)
+- [ ] [elementary probability theory](https://en.wikipedia.org/wiki/Probability_theory)
+- [ ] [combinatorics](https://en.wikipedia.org/wiki/Combinatorics)
+- [ ] [n choose k](https://en.wikipedia.org/wiki/Combination#Number_of_k-combinations) problems
+- [ ] _Problems of the "ilk" of n-choose-k_?
 
 # Resources for Learning About Google
 
 ## Podcasts
 
 - Evan You on [IndieHackers](https://www.indiehackers.com/podcast/078-evan-you-of-vue)
+  Previously a Googler who created a front-end framework called [Vue.js](https://github.com/vuejs/vue) which is quite popular.
 
 
 ## Videos
