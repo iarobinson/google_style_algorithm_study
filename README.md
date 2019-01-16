@@ -2,13 +2,26 @@ How I Would Prepare for an Interview as a Front End Developer at Google
 
 # Broad Algorithms and Concepts
 
-- [ ] sorting
-- [ ] binary search
-- [ ] divide and compare
-- [ ] dynamic programming/memoization
-- [ ] greediness
-- [ ] recursion
-- [ ] Big-o-notation
+- [ ] [sorting](https://en.wikipedia.org/wiki/Sorting_algorithm)
+- [ ] [binary search](https://en.wikipedia.org/wiki/Binary_search_algorithm)
+- [ ] [divide and compare](https://en.wikipedia.org/wiki/Divide-and-conquer_algorithm)
+- [ ] [dynamic programming/memoization
+- [ ] [greediness](https://en.wikipedia.org/wiki/Greedy_algorithm)
+- [ ] [recursion](https://en.wikipedia.org/wiki/Recursion_(computer_science))
+
+  "In order to understand recursion, one must first understand recursion" - Unknown
+
+  Recursion is best visualized when you hold a mirror up to another mirror in just the perfect angle so that you can see what infinity looks like. One mirror reflects another mirror forever.
+
+  But when writing software, we can create a base case and use recursion to evaluate complex data structures without us needing to think of every edge case explicitly.
+
+  If you wanted to write a simple recursive function that counted down from a chosen number to one, [here is an example](/codeExamples/recursiveCountDown.js).
+
+
+- [ ] [Big-o-notation](https://en.wikipedia.org/wiki/Big_O_notation)
+
+  Simply put, Big-0 notation is a way to calculate the runtime of an algorithm in a _back of the envelope_ sort of way. It's not rigorous mathematical perfection... but it will give you a fairly good idea for how fast your program will work when it encounters a huge data set.
+
 
 # Specific Algorithms To Study
 
