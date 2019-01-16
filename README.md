@@ -34,17 +34,6 @@ Here is a good description of how to thinki of the [choice between memoization a
 - [ ] [greediness](https://en.wikipedia.org/wiki/Greedy_algorithm)
 
 
-- [ ] [recursion](https://en.wikipedia.org/wiki/Recursion_(computer_science))
-
-  "In order to understand recursion, one must first understand recursion" - Unknown
-
-  Recursion is best visualized when you hold a mirror up to another mirror in just the perfect angle so that you can see what infinity looks like. One mirror reflects another mirror forever.
-
-  But when writing software, we can create a base case and use recursion to evaluate complex data structures without us needing to think of every edge case explicitly.
-
-  If you wanted to write a simple recursive function that counted down from a chosen number to one, [here is an example](/codeExamples/recursiveCountDown.js).
-
-
 - [ ] [Big-o-notation](https://en.wikipedia.org/wiki/Big_O_notation)
 
   Simply put, Big-0 notation is a way to calculate the runtime of an algorithm in a _back of the envelope_ sort of way. It's not rigorous mathematical perfection... but it will give you a fairly good idea for how fast your program will work when it encounters a huge data set.
@@ -85,6 +74,43 @@ Here is a good description of how to thinki of the [choice between memoization a
 - [ ] [combinatorics](https://en.wikipedia.org/wiki/Combinatorics)
 - [ ] [n choose k](https://en.wikipedia.org/wiki/Combination#Number_of_k-combinations) problems
 - [ ] _Problems of the "ilk" of n-choose-k_?
+  - [ ] [Knerd's article](https://medium.com/knerd/why-n-choose-k-a810ebee76d4)
+
+## Graphs
+
+Consider a problem that can be addressed with a graph algorithm. Topics that can be solved with graphs often involve distance, search connectivity, cycle-detection and whatever else you can think of.
+
+Learn these three representations.
+
+- [ ] objects and pointers
+- [ ] matrix
+- [ ] adjacency list
+
+Know the good things and bad things about each.
+
+Here is another list of useful things to learn related to graphs:
+
+- [ ] basic graph traversal algorithms
+- [ ] breadth-first search
+- [ ] depth-first search
+
+Of these three categories of search, know the computational complexity of each. Use your understanding of these subjects to develop ways to select algorithm types to implement in real code.
+
+## Recursion
+
+
+- [ ] [recursion](https://en.wikipedia.org/wiki/Recursion_(computer_science))
+
+It's possible you'll want to use recursion to have more `elegant` solutions.
+
+  "In order to understand recursion, one must first understand recursion" - Unknown
+
+  Recursion is best visualized when you hold a mirror up to another mirror in just the perfect angle so that you can see what infinity looks like. One mirror reflects another mirror forever.
+
+  But when writing software, we can create a base case and use recursion to evaluate complex data structures without us needing to think of every edge case explicitly.
+
+  If you wanted to write a simple recursive function that counted down from a chosen number to one, [here is an example](/codeExamples/recursiveCountDown.js).
+
 
 # Resources for Learning About Google
 
