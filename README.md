@@ -3,10 +3,22 @@ How I Would Prepare for an Interview as a Front End Developer at Google
 # Broad Algorithms and Concepts
 
 - [ ] [sorting](https://en.wikipedia.org/wiki/Sorting_algorithm)
+
+
 - [ ] [binary search](https://en.wikipedia.org/wiki/Binary_search_algorithm)
+
+
 - [ ] [divide and compare](https://en.wikipedia.org/wiki/Divide-and-conquer_algorithm)
-- [ ] [dynamic programming/memoization
+
+
+- [ ] [dynamic programming](http://en.wikipedia.org/wiki/Dynamic_programming) / [memoization](http://en.wikipedia.org/wiki/Memoization)
+
+Here is a good description of how to thinki of the [choice between memoization and dynamicprogramming](https://stackoverflow.com/questions/6184869/what-is-the-difference-between-memoization-and-dynamic-programming)
+
+
 - [ ] [greediness](https://en.wikipedia.org/wiki/Greedy_algorithm)
+
+
 - [ ] [recursion](https://en.wikipedia.org/wiki/Recursion_(computer_science))
 
   "In order to understand recursion, one must first understand recursion" - Unknown
