@@ -5,7 +5,7 @@ In [this video](https://youtu.be/ko-KkSmp-Lk) the list of the things they ask us
 prove what is on your resume
 data structures
   hash tables
-  stacks
+  stacks [] << push
   array
 algorithms
   space complexity (how to improve or change)
