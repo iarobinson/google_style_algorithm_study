@@ -77,11 +77,21 @@ class SinglyLinkedList {
     return true;
   }
   remove(position) {
-    
+    if (position < 0 || postion > this.length) return undefined;
+    if (position === this.length) return this.pop();
+    if (position === 0) return this.shift();
+    let targetNode = this.get(position - 1);
+    let removedNode = this.get(position);
+    targetNode.next = removedNode.next;
+    this.length -= 1;
   }
 }
 
 var myList = new SinglyLinkedList();
 // myList.push("hello");
-myList.push("hi");
-console.log(myList);
+myList.push("one");
+myList.push("two");
+myList.push("three");
+myList.remove(0);
+
+console.log(myList.length);
